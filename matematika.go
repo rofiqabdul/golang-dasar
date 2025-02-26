@@ -13,4 +13,10 @@ func main() {
 	i += 10
 
 	fmt.Println(i)
+
+	var j = 1
+	j++
+	j++
+
+	fmt.Println(j)
 }
