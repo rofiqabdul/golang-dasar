@@ -8,4 +8,9 @@ func main() {
 	var c = a*b - 100/2 + 10%2
 
 	fmt.Println(c)
+
+	var i = 10
+	i += 10
+
+	fmt.Println(i)
 }
