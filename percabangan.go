@@ -18,4 +18,20 @@ func main() {
 	} else {
 		fmt.Println("Nama sudah benar")
 	}
+
+	switch name {
+	case "Eko":
+		fmt.Println("Hello Eko")
+	case "Joko":
+		fmt.Println("Hello Joko")
+	default:
+		fmt.Println("Hi, boleh kenalan?")
+	}
+
+	switch length := len(name); length > 5 {
+	case true:
+		fmt.Println("Nama terlalu panjang")
+	case false:
+		fmt.Println("Nama sudah benar")
+	}
 }
